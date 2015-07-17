@@ -4,17 +4,10 @@
 
 **RapidData** is an open-source, real-time, low-latency, high-throughput stream processing framework.
 
-RapidData is a collaborative effort between Cask Data, Inc. and AT&T that combines 
-technologies from these companies to create a disruptive new framework to handle a diverse
-set of real-time streaming requirements.
 
-Cask Data has built technology that provides scalable, reliable, and persistent high-throughput
+RapidData is a project that provides scalable, reliable, and persistent high-throughput
 event processing with high-level Java APIs using Hadoop and HBase.
 
-AT&T has built a streaming engine that provides massively scalable, flexible, and in-memory
-low-latency stream processing with a SQL-like query Language.
-
-Together, they have combined to create **RapidData**.
 
 There are many applications that can take advantage of its features:
 
