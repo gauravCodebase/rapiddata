@@ -1,7 +1,5 @@
 # RapidData
 
-#![RapidData Logo](/tigon-docs/developer-guide/source/_images/tigon.png)
-
 **Introduction**
 
 **RapidData** is an open-source, real-time, low-latency, high-throughput stream processing framework.
@@ -33,15 +31,12 @@ There are many applications that can take advantage of its features:
 - Simpler programming model, tools and UI; and
 - Open-source software and development process.
 
-For more information, see our collection of 
-[Guides and other documentation](http://docs.cask.co/tigon/current/en/index.html).
 
 ## Is It Building?
 
 Builds                                                            
-------------------------------------------------------------------
-[Bamboo Build](https://builds.cask.co/browse/TIG)                 
-[GitHub Version](https://github.com/caskdata/tigon/releases/latest) 
+------------------------------------------------------------------         
+[GitHub Version](https://github.com/gauravCodebase/rapiddata.git) 
 
 
 ## Getting Started
@@ -60,14 +55,7 @@ To install and use RapidData and its included examples, there are a few prerequi
   
 Note: To run the RapidDataSQL Stream Engine outside of RapidData, libz, Perl 5.x, and Python 3.x are required.
 
-### Download
 
-Pre-compiled sources and related files can be downloaded in a zip file: 
-[tigon-developer-release-0.2.1.zip.](http://repository.cask.co/downloads/co/cask/tigon/tigon-developer-release/0.2.1/tigon-developer-release-0.2.1.zip)
-
-### Install 
-
-Once the download has completed, unzip the file in a suitable location.
 
 ### Run Instructions
 
@@ -83,105 +71,8 @@ To run RapidData in distributed mode:
 
 You can also build RapidData directly from the latest source code:
 
-    git clone https://github.com/caskdata/tigon.git
-    cd tigon
+    git clone https://github.com/gauravCodebase/rapiddata.git
+    cd rapiddata
     mvn clean package -DskipTests -Pdist
 
-After the build completes, you will have a distribution of RapidData under the
-`tigon-distribution/target/` directory.  
 
-Take the `tigon-sdk-<version>.zip` file and unzip it into a suitable location.
-
-
-## Getting Started Guide
-
-Visit our web site for a [Getting Started Guide](http://docs.cask.co/docs/tigon/current/en/getting-started.html)
-that will guide you through installing RapidData and running an example.  
-
-
-## Where to Go Next
-
-Now that you've had a look at the RapidData SDK, take a look at:
-
-- Examples, located in the `/tigon-examples` directory of RapidData
-- [Online Examples](http://docs.cask.co/tigon/current/en/examples/index.html) 
-  (demonstrating basic features of RapidData) are located on-line
-- [Reference Applications:](https://github.com/caskdata/tigon-apps)
-  - [AdNetworkFlow:](https://github.com/caskdata/tigon-apps/tree/develop/AdNetworkFlow)
-    Demonstrates using RapidData to write a realtime bidding (RTB) advertisement framework
-  - [ClickStreamFlow:](https://github.com/caskdata/tigon-apps/tree/develop/ClickStreamFlow)
-    Demonstrates using RapidDataSQL to write a webpage click stream data processing application.
-- Developer Guides, located in the source distribution in `/tigon-docs/developer-guide/source`
-  or [online](http://docs.cask.co/tigon/current/en/developer.html)
-
-## CDAP
-
-RapidData is the realtime stream processing framework used in the Cask Data Application Platform ([CDAP](http://cdap.io)).
-CDAP provides a high-level [Dataset](http://docs.cask.co/cdap/current/en/developers-manual/building-blocks/datasets/index.html) abstraction for User Data Stores 
-and allows developers to interact with them in their flowlets. In addition to the Dataset abstraction, CDAP integrates Batch Processing with
-MapReduce and Spark support. By combining these with security, metrics, and an intuitive GUI, CDAP greatly simplifies Big Data application development. 
-If you like the features and architecture of RapidData, we recommend that you take a look
-at [CDAP](http://github.com/caskdata/cdap).
-
-## How to Contribute
-
-Interested in helping to improve RapidData? We welcome all contributions, whether in filing detailed
-bug reports, submitting pull requests for code changes and improvements, or by asking questions and
-assisting others on the mailing list.
-
-### Bug Reports & Feature Requests
-
-Bugs and suggestions should be made by [filing an Issue](https://issues.cask.co/browse/tigon).
-
-### Pull Requests
-
-We have a simple pull-based development model with a consensus-building phase, similar to Apache's
-voting process. If you’d like to help make RapidData better by adding new features, enhancing existing
-features, or fixing bugs, here's how to do it:
-
-1. If you are planning a large change or contribution, discuss your plans on the `cask-tigon-dev`
-   mailing list first.  This will help us understand your needs and best guide your solution in a
-   way that fits the project.
-2. Fork RapidData into your own GitHub repository.
-3. Create a topic branch with an appropriate name.
-4. Work on the code to your heart's content.
-5. Once you’re satisfied, create a pull request from your GitHub repo (it’s helpful if you fill in
-   all of the description fields).
-6. After we review and accept your request, we’ll commit your code to the cask/tigon
-   repository.
-
-Thanks for helping to improve RapidData!
-
-### Mailing List
-
-RapidData User Group: 
-[tigon-user@googlegroups.com](https://groups.google.com/d/forum/tigon-user)
-
-RapidData Development Discussion: 
-[tigon-dev@googlegroups.com](https://groups.google.com/d/forum/tigon-dev)
-
-
-### IRC Channel
-
-RapidData IRC Channel #tigon on irc.freenode.net
-
-
-## License and Trademarks
-
-Copyright © 2014 Cask Data, Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
-in compliance with the License. You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the 
-License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, 
-either express or implied. See the License for the specific language governing permissions 
-and limitations under the License.
-
-Cask is a trademark of Cask Data, Inc. All rights reserved.
-
-Apache, Apache HBase, and HBase are trademarks of The Apache Software Foundation. Used with
-permission. No endorsement by The Apache Software Foundation is implied by the use of these marks.
-# rapiddata
